@@ -1,0 +1,24 @@
+{
+  "name": "ps-scripting",
+  "version": "1.0.0",
+  "description": "Automating Photoshop via JavaScript",
+  "author": "Oliver Hellebusch <mail@olihel.com>",
+  "main": "js/watch.js",
+  "readmeFilename": "README.md",
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://raw.github.com/olihel/ps-scripting/master/LICENSE"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:olihel/ps-scripting.git"
+  },
+  "dependencies": {
+    "stalker": "~0.0.20"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.10.0",
+    "Photoshop": ">=12.0.0"
+  }
+}
