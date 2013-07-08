@@ -1,4 +1,3 @@
-
 # Automating Photoshop via JavaScript
 
 Let a potentially unattended instance of Photoshop do work for you.
@@ -29,9 +28,7 @@ node js/watch.js
 
 There is a main processing script ("process.jsx") that is copied alongside the Photoshop file by the watch script. It takes care of starting the action specific processing script and passing required settings. Two example actions can be found in the "js/actions" folder.
 
-<br>
-
-- - -
+[![githalytics.com alpha](https://cruel-carlota.gopagoda.com/f52f925326e8b956d57ea7313949e5db "githalytics.com")](http://githalytics.com/olihel/ps-scripting)
 
 <sub>**Credits**</sub>  
 <sub>Thanks to [SinnerSchrader](http://www.sinnerschrader.com/) for support and the time to work on this project.</sub>
